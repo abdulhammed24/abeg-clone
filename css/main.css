@@ -589,11 +589,6 @@ html {
   margin-right: auto;
 }
 
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mt-16{
   margin-top: 4rem;
 }
@@ -612,6 +607,10 @@ html {
 
 .mb-1{
   margin-bottom: 0.25rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
 }
 
 .mb-0{
@@ -638,10 +637,6 @@ html {
   margin-bottom: 2.5rem;
 }
 
-.mb-3{
-  margin-bottom: 0.75rem;
-}
-
 .block{
   display: block;
 }
@@ -662,8 +657,8 @@ html {
   height: auto;
 }
 
-.h-\[4em\]{
-  height: 4em;
+.h-\[3\.9em\]{
+  height: 3.9em;
 }
 
 .h-\[15em\]{
@@ -674,8 +669,8 @@ html {
   height: 1.9em;
 }
 
-.h-\[3\.9em\]{
-  height: 3.9em;
+.h-\[1\.5em\]{
+  height: 1.5em;
 }
 
 .w-full{
@@ -696,6 +691,14 @@ html {
 
 .w-\[1\.9em\]{
   width: 1.9em;
+}
+
+.w-\[4\.8em\]{
+  width: 4.8em;
+}
+
+.w-\[1\.5em\]{
+  width: 1.5em;
 }
 
 .max-w-\[90em\]{
@@ -810,12 +813,12 @@ html {
   background-color: rgb(33 35 55 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(https\:\/\/abeg\.app\/_next\/static\/media\/wavy-bg-black\.72ada49b\.png\)\]{
-  background-image: url(https://abeg.app/_next/static/media/wavy-bg-black.72ada49b.png);
-}
-
 .bg-\[linear-gradient\(0deg\2c _\#753ff6\2c _\#753ff6\2c _\#753ff6\2c _\#753ff6\2c _\#753ff6\2c _\#753ff6\2c _\#753ff600\)\]{
   background-image: linear-gradient(0deg, #753ff6, #753ff6, #753ff6, #753ff6, #753ff6, #753ff6, #753ff600);
+}
+
+.bg-\[url\(https\:\/\/abeg\.app\/_next\/static\/media\/wavy-bg-black\.72ada49b\.png\)\]{
+  background-image: url(https://abeg.app/_next/static/media/wavy-bg-black.72ada49b.png);
 }
 
 .bg-cover{
@@ -903,9 +906,9 @@ html {
   line-height: 1.25rem;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl{
@@ -913,9 +916,9 @@ html {
   line-height: 1.75rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-semibold{
@@ -983,21 +986,17 @@ html {
   .sm\:flex-row{
     flex-direction: row;
   }
-
-  .sm\:flex-col{
-    flex-direction: column;
-  }
 }
 
 @media (min-width: 768px){
-  .md\:mx-0{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .md\:mx-6{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+  }
+
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .md\:mb-11{
@@ -1070,6 +1069,11 @@ html {
 
   .md\:text-lg{
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
