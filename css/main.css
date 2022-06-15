@@ -995,6 +995,11 @@ html {
     margin-right: 0px;
   }
 
+  .md\:mx-6{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   .md\:mb-11{
     margin-bottom: 2.75rem;
   }
